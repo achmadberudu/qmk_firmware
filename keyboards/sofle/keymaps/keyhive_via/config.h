@@ -22,6 +22,9 @@ see https://docs.qmk.fm/#/feature_split_keyboard?id=setting-handedness
 for more options.
 */
 
+#define OLED_TIMEOUT 120000
+#define OLED_BRIGHTNESS 120
+#define SPLIT_WPM_ENABLE
 // More lighting options in quantum/rgblight/rgblight.h
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_RAINBOW_SWIRL+2
